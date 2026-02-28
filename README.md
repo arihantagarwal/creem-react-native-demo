@@ -27,8 +27,8 @@ creem-demo/
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/you/creem-demo
-cd creem-demo
+git clone https://github.com/arihantagarwal/creem-react-native-demo
+cd creem-react-native-demo
 
 # Node 20+ recommended (tested on Node 22)
 
