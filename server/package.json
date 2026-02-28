@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Creem demo backend server",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env -r ts-node/register index.ts",
+    "start": "node --env-file-if-exists=.env -r ts-node/register index.ts",
+    "typecheck": "tsc --noEmit --project tsconfig.json"
+  },
+  "keywords": [
+    "creem",
+    "expo",
+    "express"
+  ],
+  "author": "Creem Demo",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

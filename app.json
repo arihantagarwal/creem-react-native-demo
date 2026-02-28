@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Creem Demo",
+    "slug": "creem-demo",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#0A0A0A"
+    },
+    "scheme": "creemapp",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "io.creem.demo",
+      "infoPlist": {
+        "CFBundleURLTypes": [
+          {
+            "CFBundleURLSchemes": [
+              "creemapp"
+            ]
+          }
+        ]
+      }
+    },
+    "android": {
+      "package": "io.creem.demo",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "creemapp"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "plugins": ["expo-router"]
+  }
+}
